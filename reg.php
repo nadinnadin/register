@@ -9,9 +9,9 @@ if(isset($_POST['insert'])){
     $pwd = password_hash($_POST['password'],PASSWORD_DEFAULT);
     $repeatpassword = $_POST['repeat-password'];
 
-    $dsn = 'mysql:dbname=nadiiadiakova; host=127.0.0.1';
-    $user = 'nadiiadiakova';
-    $password = 'DfqYjN';
+    $dsn = 'mysql:dbname=********; host=127.0.0.1';
+    $user = '**********';
+    $password = '********';
 
     try {
         $dbh = new PDO($dsn, $user, $password);
