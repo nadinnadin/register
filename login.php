@@ -4,9 +4,9 @@ ini_set('display_errors', 1);
 if(isset($_POST['insert'])){
     $username = $_POST['username'];
     $userpwd = $_POST['password'];
-    $dsn = 'mysql:dbname=nadiiadiakova; host=localhost';
-    $user = 'nadiiadiakova';
-    $password = 'DfqYjN';
+    $dsn = 'mysql:dbname=*******; host=localhost';
+    $user = '*********';
+    $password = '*****';
 
     try {
         $dbh = new PDO($dsn, $user, $password);
